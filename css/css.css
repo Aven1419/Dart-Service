@@ -54,7 +54,7 @@ header{
     align-items: center;
     display: flex;
 }
-button{
+.sign{
     height: 25px;
     width: 80px;
     border-radius: 2px;
@@ -99,4 +99,22 @@ h1 {
   font-size: 55px;
   line-height: 65px;
   text-transform: uppercase;
+}
+.first_buttom{
+    padding-left: 30px;
+}
+.Buy {
+    width: 150px;
+    height: 55px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #061e37;
+    padding-left: 30px;
+}
+.try{ 
+    width: 160px;
+    height: 55px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #ffffff;
 }
