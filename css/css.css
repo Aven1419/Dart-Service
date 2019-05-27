@@ -215,6 +215,7 @@ h5 {
 }
 
 .titles {
+    text-align: center;
     margin-top: 100px;
     display: flex;
     justify-content: space-evenly;
@@ -225,7 +226,23 @@ h5 {
     font-size: 15px;
 }
 
+.img_titles_1 {
+    width: 68px;
+    height: 70px;
+}
+
+.img_titles_2 {
+    width: 58px;
+    height: 80px;
+}
+
+.img_titles_3 {
+    width: 68px;
+    height: 71px;
+}
+
 .started {
+    /* кнопка get started */
     margin-top: 78px;
     text-transform: uppercase;
     font-weight: 400;
@@ -285,4 +302,17 @@ h5 {
     width: 400px;
     height: 150px;
     background-color: #ea80fc;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background: #fff
+}
+
+.services {
+    color
+    margin-top: 100px;
+    text-align: center;
 }
