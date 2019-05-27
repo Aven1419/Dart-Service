@@ -305,14 +305,63 @@ h5 {
 }
 
 .circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     width: 60px;
     height: 60px;
     border-radius: 50%;
-    background: #fff
+    background: #fff;
 }
 
 .services {
-    color
     margin-top: 100px;
     text-align: center;
+}
+
+.customers {
+    background-image: url(/img/BG_customers.svg);
+    background-size: cover;
+    height: 564px;
+}
+
+h3 {
+    font-weight: 400;
+    font-size: 45px;
+}
+
+.Get_started {
+    /* кнопка после Srvices get started */
+    margin-top: 78px;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 15px;
+    width: 150px;
+    color: #ffffff;
+    height: 55px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #061e37;
+    margin-bottom: 100px;
+}
+
+.info_buttom {
+    margin-top: 80px;
+    color: #fff;
+    float: left;
+    margin-left: 80px;
+}
+
+.icon_customers_img {
+    width: 60px;
+    height: 60px;
+}
+
+. .message {
+    margin-top: 70px;
+    width: 650px;
+    height: 160px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    background-color: #ffffff;
 }
