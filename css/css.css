@@ -353,15 +353,40 @@ h3 {
 }
 
 .icon_customers_img {
+    border: solid red 1px;
     width: 60px;
     height: 60px;
 }
 
-. .message {
+.icon_customers {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border: solid red 1px;
+}
+
+.message {
+    float: right;
     margin-top: 70px;
     width: 650px;
     height: 160px;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
     border-radius: 5px;
     background-color: #ffffff;
+}
+
+
+/* блок Our Team */
+
+.team {
+    text-align: center;
+    color: #b0bec5;
+}
+
+.team_img {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 98px;
 }
